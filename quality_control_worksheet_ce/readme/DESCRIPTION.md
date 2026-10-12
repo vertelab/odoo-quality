@@ -1,6 +1,6 @@
 # Worksheet for Quality Control CE
 
-Community Edition port of the `quality_control_worksheet` module.
+Community Edition port of the Enterprise `quality_control_worksheet` module.
 It adds a **worksheet-based check type** to `quality_control_ce`: a quality
 point can be configured with a worksheet template, the worksheet is filled in
 from the quality check wizard, and the worksheet's success conditions decide
@@ -30,10 +30,10 @@ model. This module implements them for `quality.check`:
 | `_get_quality_check_access_all_groups` | `quality_ce.group_quality_manager` |
 | `_get_quality_check_module_name` | `quality_control_worksheet_ce` |
 
-The upstream version used the `quality` / `quality_control` xmlids; here
+The Enterprise version used the `quality` / `quality_control` xmlids; here
 they point at `quality_ce` / `quality_control_ce`.
 
-## Difference from the upstream module
+## Difference from the Enterprise module
 
 The port is behaviour-preserving. The xmlid prefix is changed
 (`quality_control_worksheet.` -> `quality_control_worksheet_ce.`) and

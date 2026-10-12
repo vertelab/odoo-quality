@@ -10,11 +10,11 @@
 Worksheet CE
 ============
 
-Community Edition port of the ``worksheet`` module. A worksheet
+Community Edition port of the Enterprise ``worksheet`` module. A worksheet
 template generates its own model, form, list and search views and a QWeb
 report, so that performed work can be documented per record.
 
-The upstream module depends on ``web_studio`` only for its editing
+The Enterprise module depends on ``web_studio`` only for its editing
 interface (the "Design Template" button, the Studio controller and the
 Studio navbar patch). Those parts are removed here; the model layer is
 portable and uses only Community Edition core APIs.

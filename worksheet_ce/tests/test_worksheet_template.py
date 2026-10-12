@@ -18,7 +18,7 @@ class TestWorksheetTemplate(TransactionCase):
 
     ``worksheet.template`` is an abstract template module: it does not
     implement the per-host-model hooks (``_get_<model>_manager_group`` etc.)
-    itself. Those are provided by the consumer module — in the upstream module by
+    itself. Those are provided by the consumer module — in EE by
     ``quality_control_worksheet`` (``_get_quality_check_*``),
     ``maintenance_worksheet`` (``_get_maintenance_request_*``) and
     ``industry_fsm_report`` (``_get_project_task_*``).

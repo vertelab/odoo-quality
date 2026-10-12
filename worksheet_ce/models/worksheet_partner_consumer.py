@@ -7,8 +7,7 @@ from odoo import api, models
 class WorksheetTemplate(models.Model):
     """Consumer hooks for ``res.partner`` worksheet templates.
 
-    ``worksheet.template`` (the model layer ported from the upstream module) is
-    an abstract
+    ``worksheet.template`` (the model layer ported from EE) is an abstract
     template module: ``_generate_worksheet_model()`` requires the consumer to
     implement four hooks per host model:
 
@@ -17,7 +16,7 @@ class WorksheetTemplate(models.Model):
         _get_<res_model>_access_all_groups
         _get_<res_model>_module_name
 
-    In the upstream module those hooks live in the consumer module — ``quality_control_worksheet``
+    In EE those hooks live in the consumer module — ``quality_control_worksheet``
     (``_get_quality_check_*``), ``maintenance_worksheet``
     (``_get_maintenance_request_*``) and ``industry_fsm_report``
     (``_get_project_task_*``). ``worksheet_ce`` itself implements none of them.

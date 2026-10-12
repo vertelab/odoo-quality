@@ -12,15 +12,15 @@
 Worksheet for Quality Control CE
 ================================
 
-Community Edition port of the ``quality_control_worksheet``
-module. Adds a worksheet-based check type to ``quality_control_ce``:
+Community Edition port of the Enterprise ``quality_control_worksheet``
+module (OEEL-1). Adds a worksheet-based check type to ``quality_control_ce``:
 a worksheet template is attached to a quality point, the worksheet is filled
 in from the check wizard, and its success conditions decide whether the check
 passes or fails.
 
 The module implements the four consumer hooks that ``worksheet_ce`` requires
 for the ``quality.check`` host model (manager group, user group, access-all
-groups and module name). The upstream version used the ``quality`` and
+groups and module name). The Enterprise version used the ``quality`` and
 ``quality_control`` groups and xmlids; here they point at ``quality_ce`` and
 ``quality_control_ce``.
 

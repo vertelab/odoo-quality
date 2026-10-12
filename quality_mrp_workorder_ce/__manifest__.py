@@ -13,13 +13,13 @@
 MRP features for Quality Control CE
 ===================================
 
-Community Edition port of the ``quality_mrp_workorder`` module
-Adds quality control to work orders: quality checks on the Shop
+Community Edition port of the Enterprise ``quality_mrp_workorder`` module
+(OEEL-1). Adds quality control to work orders: quality checks on the Shop
 Floor display, the work-order tablet view and the operation-level
 filtering of checks.
 
-The upstream module references a template-based check type from the
-optional add-on. As in ``quality_control_ce`` that support is dropped:
+The Enterprise module references a template-based check type from the
+optional EE add-on. As in ``quality_control_ce`` that support is dropped:
 the check-icon patch, the confirmation-dialog extension and the tour are
 removed.
 

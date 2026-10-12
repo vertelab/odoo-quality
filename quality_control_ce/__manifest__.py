@@ -13,13 +13,13 @@
 Quality Control CE
 ==================
 
-Community Edition port of the ``quality_control`` module
-Adds the quality control framework on top of ``quality_ce``:
+Community Edition port of the Enterprise ``quality_control`` module
+(OEEL-1). Adds the quality control framework on top of ``quality_ce``:
 control points generate checks on pickings, manufacturing orders or work
 orders (``quality_mrp_ce``), checks can be passed, failed or measured, and
 quality alerts can be created from a check.
 
-The upstream module depends on an additional module for an
+The Enterprise module depends on an additional OEEL-1 module for an
 optional, template-based check type. That dependency is removed here
 together with its two models, its views, menu, security rules, assets and
 tests. All remaining check types (pass/fail, measure, instructions,

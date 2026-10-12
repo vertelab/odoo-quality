@@ -13,7 +13,7 @@
 Quality Base CE
 ===============
 
-Community Edition port of the ``quality`` module.
+Community Edition port of the Enterprise ``quality`` module (OEEL-1).
 
 * Define quality points that will generate quality checks on pickings,
   manufacturing orders or work orders (quality_mrp_ce)

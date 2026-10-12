@@ -13,7 +13,7 @@
 MRP features for Quality Control CE
 ===================================
 
-Community Edition port of the ``quality_mrp`` module.
+Community Edition port of the Enterprise ``quality_mrp`` module (OEEL-1).
 Adds workcenters and manufacturing orders to the quality control
 framework: quality checks generated on manufacturing orders, the
 manufacturing-order smart button and the MRP worksheet report.
